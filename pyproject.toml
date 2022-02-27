@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "anime-embedded"
+version = "0.1.0"
+description = ""
+authors = ["Vladimir Levin <vladimirlevinozinki@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Pillow = "^9.0.1"
+colour = "^0.1.5"
+numpy = "^1.22.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
